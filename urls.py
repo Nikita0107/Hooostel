@@ -4,8 +4,10 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
     TokenVerifyView,
 )
+from setuptools.extern import names
+
 from .views import (RegisterView, LoginView, UploadImageView, GetDocumentTextView,
-                    DeleteDocumentView, AnalyzeDocumentView)
+                    DeleteDocumentView, AnalyzeDocumentView, Vjsdhjkhj)
 
 
 urlpatterns = [
@@ -18,4 +20,5 @@ urlpatterns = [
     path('get-document-text/<int:doc_id>/', GetDocumentTextView.as_view(), name='get_document_text'),
     path('delete-document/<int:doc_id>/', DeleteDocumentView.as_view(), name='delete-document'),
     path('doc_analyse/<int:doc_id>/', AnalyzeDocumentView.as_view(), name='analyze-document'),
+    path('_idiot/id(2)/', Vjsdhjkhj.as_view(), names='qwerty')
 ]

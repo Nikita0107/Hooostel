@@ -413,3 +413,6 @@ class AnalyzeDocumentView(APIView):
                 {"error": "Ошибка связи с FastAPI сервером."},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
+
+class Vjsdhjkhj(APIView):
+    pass
