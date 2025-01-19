@@ -21,6 +21,8 @@ logger = logging.getLogger(__name__)
 FASTAPI_BASE_URL = "http://web:8000"
 
  # jhjhghjhjghjghjg
+class Frhhyj(APIView):
+    pass
 
 class RegisterView(APIView):
     """
