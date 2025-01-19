@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 # Базовый URL для вашего FastAPI сервера
 FASTAPI_BASE_URL = "http://web:8000"
 
-
+ # jhjhghjhjghjghjg
 
 class RegisterView(APIView):
     """
